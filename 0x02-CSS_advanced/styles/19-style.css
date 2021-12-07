@@ -130,19 +130,6 @@ a:active {
   margin-right: auto;
 }
 
-.card-category {
-  color: var(--color-primary);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
-}
-
-.footer {
-  padding: var(--footer-padding);
-}
-
 .navbar-menu {
   float: right;
 }
@@ -172,6 +159,15 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--nav-item-link-hover);
 }
 
+.card-category {
+  color: var(--color-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+}
+
 ul.row {
   margin: 0;
   padding: 0;
@@ -188,6 +184,10 @@ ul.row {
   width: 50%;
   float: left;
   padding: 0.5rem;
+}
+
+.footer {
+  padding: var(--footer-padding);
 }
 
 .footer-copyright {
