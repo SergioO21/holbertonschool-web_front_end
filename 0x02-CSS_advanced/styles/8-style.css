@@ -30,16 +30,14 @@ html {
 }
 
 body {
-  color: var(--text-color);
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
 }
 
-a {
+body, a {
   color: var(--text-color);
-  text-decoration: none;
 }
 
 .visually-hidden {
