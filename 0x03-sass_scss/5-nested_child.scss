@@ -1,0 +1,9 @@
+/* Nested child in SCSS */
+
+body {
+  color: #3D3D3D;
+
+  > .red {
+    color: #FF0000;
+  }
+}
