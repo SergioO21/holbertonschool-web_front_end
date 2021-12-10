@@ -1,15 +1,15 @@
 /* Import colors in SCSS */
 
-@use "10-colors.scss" as colors;
+@import "10-colors.scss";
 
 .red {
-  color: colors.$red;
+  color: $red;
 }
 
 .green {
-  color: colors.$green;
+  color: $green;
 }
 
 .blue {
-  color: colors.$blue;
+  color: $blue;
 }
