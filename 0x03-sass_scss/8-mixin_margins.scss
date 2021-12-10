@@ -1,0 +1,14 @@
+/* Margin mixin in SCSS */
+
+@mixin base-margin($base) {
+  margin-left: $base;
+  margin-right: $base;
+}
+
+body {
+  @include base-margin(10px);
+}
+
+div {
+  @include base-margin(15px);
+}
